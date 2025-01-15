@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar_menu {
+    background-color: rgb(41,47,69);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 1;
+}
+.list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatar-item{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.navbar_item .list1 {
+    list-style: none;
+    display:inline-flex;
+    justify-content: space-around;
+}
+.item1{
+    position: relative;
+    left: 50px;
+}
+.nav_item_name{
+    color: #fff;
+    text-decoration: none;
+    padding: 30px ;
+}
+.nav_item_name:hover{
+    color: gray;
+}
+.container-item {
+    background-image: url(image/R.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 85vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-item-name{
+    font-size: 30px;
+}
+#btnXemdichvu{
+    background-color:#e97066;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+#btnXemdichvu:hover{
+    background-color: #fff;
+}
+.container-CV-img-Name{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+.img-item{
+    width:300px;
+    height: 300px;
+}
+.conntainer-CV {
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-GioiThieu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;     
+}
+#btnXemThem{
+    background-color:#e97066;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+#btnXemThem:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.container-Text{
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+}
+.container-text-dichvu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container-text-dichvu .item{
+    display: block;
+    padding: 70px;
+    position: relative;
+}
+.item::after{
+    content: " ";
+    height: 200px;
+    padding: 1px;
+    background-color:rgba(0, 0,0,0.6);
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+.container-btn .btnXemDichVu{
+    display: block;
+    background-color: #e77067;
+    padding:15px;
+    height: auto;
+    cursor: pointer;
+    font-size: inherit;
+    border: none;
+}
+.btnXemDichVu:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #292f45;
+    color: #fff;
+    width: 100%;
+    height: 50vh;
+    padding: 40px;
+}
+.footer-text .footer-h2{
+    display: block;
+    text-align: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
